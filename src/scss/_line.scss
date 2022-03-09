@@ -1,0 +1,60 @@
+.line{
+    &__vertival{
+        position: absolute;
+        width: 8px;
+        height: 600px;
+        background: rgb(56, 177, 86);
+    }
+
+    &_vertical-1{
+        left:94px;
+    }
+
+    &_vertical-2{
+        left:295px;
+    }
+
+    &_vertical-3{
+        left:497px;
+    }
+
+    &__horizontal{
+        position: absolute;
+        width: 600px;
+        height:8px;
+        background: rgb(56, 177, 86);
+    }
+
+    &_horizontal-1{
+        top: 94px;
+    }
+
+    &_horizontal-2{
+        top: 295px;
+    }
+
+    &_horizontal-3{
+        top: 497px;
+    }
+
+    &__dioginal{
+        position: absolute;
+        width: 850px;
+        height:8px;
+        background-color: red;       
+    }
+
+    &_dioginal-1{
+        transform: rotate(45deg);
+        top: 300px;
+        left: -125px;
+    }
+
+    &_dioginal-2{
+        transform: rotate(-45deg);
+        top: 300px;
+        left: -125px;
+    }
+
+
+}

@@ -1,0 +1,32 @@
+.field{
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   grid-template-rows: 200px 200px 200px;
+   margin-top: 30px;
+   position: relative;
+
+   &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid black;
+
+        font-size: 50px;
+   }
+
+   &_bordtn{
+       border-top: none;
+   }
+
+   &_bordln{
+       border-left: none;
+   }
+
+   &_bordrn{
+    border-right: none;
+   }
+
+   &_borbn{
+    border-bottom: none;
+   }
+}
